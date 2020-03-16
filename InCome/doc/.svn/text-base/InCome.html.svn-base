@@ -1,0 +1,264 @@
+<html dir="LTR">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+    <meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
+    <title>InCome</title>
+    <xml>
+    </xml>
+    <link rel="stylesheet" type="text/css" href="MSDN.css" />
+  </head>
+  <body id="bodyID" class="dtBODY">
+    <div id="nsbanner">
+      <div id="bannerrow1">
+        <table class="bannerparthead" cellspacing="0">
+          <tr id="hdr">
+            <td class="runninghead">InCome. Source</td>
+            <td class="product">
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="TitleRow">
+        <h1 class="dtH1">InCome Namespace</h1>
+      </div>
+    </div>
+    <div id="nstext">
+      <p>
+        <a href="InComeHierarchy.html">Namespace hierarchy</a>
+      </p>
+      <h3 class="dtH3">Classes</h3>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+          <tr valign="top">
+            <th width="50%">Class</th>
+            <th width="50%">Description</th>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.CachedcrCards.html">CachedcrCards</a>
+            </td>
+            <td width="50%"> </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.CachedcrCurrent.html">CachedcrCurrent</a>
+            </td>
+            <td width="50%"> </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.CachedcrDayReport.html">CachedcrDayReport</a>
+            </td>
+            <td width="50%"> </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.CachedcrTotalReport.html">CachedcrTotalReport</a>
+            </td>
+            <td width="50%"> </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.CDbCreator.html">CDbCreator</a>
+            </td>
+            <td width="50%"> Класс предназначен для работы с базой данных </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.CEncode128.html">CEncode128</a>
+            </td>
+            <td width="50%"> Класс для перекодирования строки с цифровой последовательностью в строку символов, необходимую для отображения штрих-кода (Code 128) шрифтом barcode.ttf </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.crCards.html">crCards</a>
+            </td>
+            <td width="50%"> </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.crCurrent.html">crCurrent</a>
+            </td>
+            <td width="50%"> </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.crDayReport.html">crDayReport</a>
+            </td>
+            <td width="50%"> </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.crTotalReport.html">crTotalReport</a>
+            </td>
+            <td width="50%"> </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.dsCurrent.html">dsCurrent</a>
+            </td>
+            <td width="50%"> </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.dsCurrent.EmplCurrentDataTable.html">dsCurrent.EmplCurrentDataTable</a>
+            </td>
+            <td width="50%"> </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.dsCurrent.EmplCurrentRow.html">dsCurrent.EmplCurrentRow</a>
+            </td>
+            <td width="50%"> </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.dsCurrent.EmplCurrentRowChangeEvent.html">dsCurrent.EmplCurrentRowChangeEvent</a>
+            </td>
+            <td width="50%"> </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.dsCurrent.vwReportSourceDataTable.html">dsCurrent.vwReportSourceDataTable</a>
+            </td>
+            <td width="50%"> </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.dsCurrent.vwReportSourceRow.html">dsCurrent.vwReportSourceRow</a>
+            </td>
+            <td width="50%"> </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.dsCurrent.vwReportSourceRowChangeEvent.html">dsCurrent.vwReportSourceRowChangeEvent</a>
+            </td>
+            <td width="50%"> </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.dsReportSource.html">dsReportSource</a>
+            </td>
+            <td width="50%"> </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.dsReportSource.vwReportSourceDataTable.html">dsReportSource.vwReportSourceDataTable</a>
+            </td>
+            <td width="50%"> </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.dsReportSource.vwReportSourceRow.html">dsReportSource.vwReportSourceRow</a>
+            </td>
+            <td width="50%"> </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.dsReportSource.vwReportSourceRowChangeEvent.html">dsReportSource.vwReportSourceRowChangeEvent</a>
+            </td>
+            <td width="50%"> </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.fmAdminLog.html">fmAdminLog</a>
+            </td>
+            <td width="50%"> Форма для подтверждения прав администратора </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.fmDepart.html">fmDepart</a>
+            </td>
+            <td width="50%"> Форма для редактирования отделов </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.fmEmpl.html">fmEmpl</a>
+            </td>
+            <td width="50%"> Форма для редактирования данных о сотрудниках </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.fmGroup.html">fmGroup</a>
+            </td>
+            <td width="50%"> Форма редактирования групп </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.fmLogin.html">fmLogin</a>
+            </td>
+            <td width="50%"> Форма для авторизации сотрудника при регистрации входа/выхода </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.fmMain.html">fmMain</a>
+            </td>
+            <td width="50%"> Главная форма приложения </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.fmRep.html">fmRep</a>
+            </td>
+            <td width="50%"> Форма для отображения отчётов </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.fmStat.html">fmStat</a>
+            </td>
+            <td width="50%"> Форма для отображения/подсчёта статистики по учёту рабочего времени сотрудников </td>
+          </tr>
+        </table>
+      </div>
+      <h3 class="dtH3">Delegates</h3>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+          <tr valign="top">
+            <th width="50%">Delegate</th>
+            <th width="50%">Description</th>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.dsCurrent.EmplCurrentRowChangeEventHandler.html">dsCurrent.EmplCurrentRowChangeEventHandler</a>
+            </td>
+            <td width="50%"> </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.dsCurrent.vwReportSourceRowChangeEventHandler.html">dsCurrent.vwReportSourceRowChangeEventHandler</a>
+            </td>
+            <td width="50%"> </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.dsReportSource.vwReportSourceRowChangeEventHandler.html">dsReportSource.vwReportSourceRowChangeEventHandler</a>
+            </td>
+            <td width="50%"> </td>
+          </tr>
+        </table>
+      </div>
+      <h3 class="dtH3">Enumerations</h3>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+          <tr valign="top">
+            <th width="50%">Enumeration</th>
+            <th width="50%">Description</th>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="InCome.SqlVer.html">SqlVer</a>
+            </td>
+            <td width="50%"> Версия SQL-сервера </td>
+          </tr>
+        </table>
+      </div>
+      <hr />
+      <div id="footer">
+        <p>
+          <a>OMNI-UA</a>
+        </p>
+        <p>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

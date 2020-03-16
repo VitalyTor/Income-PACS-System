@@ -1,0 +1,60 @@
+C:\Documents and Settings\pooh\Мои документы\Visual Studio 2008\Projects\InCome_prog\InCome\obj\Release\Interop.ADODB.dll
+C:\Documents and Settings\pooh\Мои документы\Visual Studio 2008\Projects\InCome_prog\InCome\obj\Release\Interop.MSDASC.dll
+C:\Documents and Settings\pooh\Мои документы\Visual Studio 2008\Projects\InCome_prog\InCome\obj\Release\InCome.csproj.ResolveComReference.cache
+C:\Documents and Settings\pooh\Мои документы\Visual Studio 2008\Projects\InCome_prog\InCome\obj\Release\InCome.exe
+C:\Documents and Settings\pooh\Мои документы\Visual Studio 2008\Projects\InCome_prog\InCome\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\pooh\Мои документы\Visual Studio 2008\Projects\InCome_prog\InCome\obj\Release\InCome.crCards.resources
+C:\Documents and Settings\pooh\Мои документы\Visual Studio 2008\Projects\InCome_prog\InCome\obj\Release\InCome.crTotalReport.resources
+C:\Documents and Settings\pooh\Мои документы\Visual Studio 2008\Projects\InCome_prog\InCome\obj\Release\InCome.fmAdminLog.resources
+C:\Documents and Settings\pooh\Мои документы\Visual Studio 2008\Projects\InCome_prog\InCome\obj\Release\InCome.fmDepart.resources
+C:\Documents and Settings\pooh\Мои документы\Visual Studio 2008\Projects\InCome_prog\InCome\obj\Release\InCome.fmEmpl.resources
+C:\Documents and Settings\pooh\Мои документы\Visual Studio 2008\Projects\InCome_prog\InCome\obj\Release\InCome.fmEmplSearch.resources
+C:\Documents and Settings\pooh\Мои документы\Visual Studio 2008\Projects\InCome_prog\InCome\obj\Release\InCome.fmGroup.resources
+C:\Documents and Settings\pooh\Мои документы\Visual Studio 2008\Projects\InCome_prog\InCome\obj\Release\InCome.fmLogin.resources
+C:\Documents and Settings\pooh\Мои документы\Visual Studio 2008\Projects\InCome_prog\InCome\obj\Release\InCome.fmMain.resources
+C:\Documents and Settings\pooh\Мои документы\Visual Studio 2008\Projects\InCome_prog\InCome\obj\Release\InCome.fmRep.resources
+C:\Documents and Settings\pooh\Мои документы\Visual Studio 2008\Projects\InCome_prog\InCome\obj\Release\InCome.fmStat.resources
+C:\Documents and Settings\pooh\Мои документы\Visual Studio 2008\Projects\InCome_prog\InCome\obj\Release\InCome.fmEmplEdit.resources
+C:\Documents and Settings\pooh\Мои документы\Visual Studio 2008\Projects\InCome_prog\InCome\obj\Release\InCome.csproj.GenerateResource.Cache
+C:\ProjectsOLD\InCome_prog\InCome\obj\Release\Interop.ADODB.dll
+C:\ProjectsOLD\InCome_prog\InCome\obj\Release\Interop.MSDASC.dll
+C:\ProjectsOLD\InCome_prog\InCome\obj\Release\InCome.csproj.ResolveComReference.cache
+C:\ProjectsOLD\InCome_prog\InCome\obj\Release\InCome.exe
+C:\ProjectsOLD\InCome_prog\InCome\obj\Release\InCome.crCards.resources
+C:\ProjectsOLD\InCome_prog\InCome\obj\Release\InCome.crTotalReport.resources
+C:\ProjectsOLD\InCome_prog\InCome\obj\Release\InCome.fmAdminLog.resources
+C:\ProjectsOLD\InCome_prog\InCome\obj\Release\InCome.fmDepart.resources
+C:\ProjectsOLD\InCome_prog\InCome\obj\Release\InCome.fmEmpl.resources
+C:\ProjectsOLD\InCome_prog\InCome\obj\Release\InCome.fmEmplSearch.resources
+C:\ProjectsOLD\InCome_prog\InCome\obj\Release\InCome.fmGroup.resources
+C:\ProjectsOLD\InCome_prog\InCome\obj\Release\InCome.fmLogin.resources
+C:\ProjectsOLD\InCome_prog\InCome\obj\Release\InCome.fmMain.resources
+C:\ProjectsOLD\InCome_prog\InCome\obj\Release\InCome.fmRep.resources
+C:\ProjectsOLD\InCome_prog\InCome\obj\Release\InCome.fmStat.resources
+C:\ProjectsOLD\InCome_prog\InCome\obj\Release\InCome.fmEmplEdit.resources
+C:\ProjectsOLD\InCome_prog\InCome\obj\Release\InCome.csproj.GenerateResource.Cache
+C:\ProjectsOLD\InCome_prog\InCome\bin\Release\InCome.exe
+C:\ProjectsOLD\InCome_prog\InCome\bin\Release\Interop.ADODB.dll
+C:\ProjectsOLD\InCome_prog\InCome\bin\Release\Interop.MSDASC.dll
+C:\ProjectsOLD\InCome_prog\InCome\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\ProjectsOLD\InCome_prog\InCome\bin\Release\CrystalDecisions.ReportSource.dll
+C:\ProjectsOLD\InCome_prog\InCome\bin\Release\CrystalDecisions.Shared.dll
+C:\ProjectsOLD\InCome_prog\InCome\bin\Release\CrystalDecisions.Windows.Forms.dll
+C:\ProjectsOLD\InCome_prog\InCome\bin\Release\stdole.dll
+C:\ProjectsOLD\InCome_prog\InCome\obj\Release\InCome.csprojAssemblyReference.cache
+C:\ProjectsOLD\InCome_prog\InCome\obj\Release\InCome.csproj.CoreCompileInputs.cache
+C:\ProjectsOLD\InCome_prog\InCome\obj\Release\InCome.csproj.CopyComplete
+C:\ProjectsOLD\InCome_prog\InCome\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\ProjectsOLD\InCome_prog\InCome\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\ProjectsOLD\InCome_prog\InCome\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\ProjectsOLD\InCome_prog\InCome\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\ProjectsOLD\InCome_prog\InCome\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\ProjectsOLD\InCome_prog\InCome\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\ProjectsOLD\InCome_prog\InCome\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\ProjectsOLD\InCome_prog\InCome\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\ProjectsOLD\InCome_prog\InCome\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\ProjectsOLD\InCome_prog\InCome\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\ProjectsOLD\InCome_prog\InCome\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\ProjectsOLD\InCome_prog\InCome\bin\Release\FlashControlV71.dll
+C:\ProjectsOLD\InCome_prog\InCome\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\ProjectsOLD\InCome_prog\InCome\bin\Release\ShockwaveFlashObjects.dll

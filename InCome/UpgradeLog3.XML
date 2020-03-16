@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="InCome">
+</Property><Property Name="Solution File" Value="C:\ProjectsOLD\InCome_prog\InCome\InCome.sln">
+</Property><Property Name="User Options File" Value="C:\ProjectsOLD\InCome_prog\InCome\InCome.suo">
+</Property><Property Name="Date" Value="czwartek, 25 kwietnia 2019">
+</Property><Property Name="Time" Value="09:32">
+</Property><Property Name="Log Number" Value="3">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="InCome.sln" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\InCome.sln">
+</Event><Event ErrorLevel="0" Project="" Source="InCome.suo" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\InCome.suo">
+</Event><Event ErrorLevel="0" Project="InCome" Source="InCome.csproj" Description="Project file successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\InCome.csproj">
+</Event><Event ErrorLevel="0" Project="InCome" Source="InCome.csproj.user" Description="Project user file successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\InCome.csproj.user">
+</Event><Event ErrorLevel="0" Project="InCome" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="CDbCreator.cs" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\CDbCreator.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="CEncode128.cs" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\CEncode128.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="crCards.cs" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\crCards.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="crCurrent.cs" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\crCurrent.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="crDayReport.cs" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\crDayReport.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="crTotalReport.cs" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\crTotalReport.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="dsCurrent.Designer.cs" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\dsCurrent.Designer.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="dsReportSource.Designer.cs" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\dsReportSource.Designer.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmAdminLog.cs" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\fmAdminLog.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmDepart.cs" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\fmDepart.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmEmpl.cs" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\fmEmpl.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmEmplSearch.cs" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\fmEmplSearch.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmGroup.cs" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\fmGroup.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmLogin.cs" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\fmLogin.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmMain.cs" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\fmMain.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmRep.cs" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\fmRep.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmStat.cs" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\fmStat.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmEmplEdit.cs" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\fmEmplEdit.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="dsCurrent.xsc" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\dsCurrent.xsc">
+</Event><Event ErrorLevel="0" Project="InCome" Source="dsCurrent.xsx" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\dsCurrent.xsx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="dsReportSource.xsc" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\dsReportSource.xsc">
+</Event><Event ErrorLevel="0" Project="InCome" Source="dsReportSource.xsx" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\dsReportSource.xsx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="App.ico" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\App.ico">
+</Event><Event ErrorLevel="0" Project="InCome" Source="dsCurrent.xsd" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\dsCurrent.xsd">
+</Event><Event ErrorLevel="0" Project="InCome" Source="dsReportSource.xsd" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\dsReportSource.xsd">
+</Event><Event ErrorLevel="0" Project="InCome" Source="crCards.resx" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\crCards.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="crCards.rpt" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\crCards.rpt">
+</Event><Event ErrorLevel="0" Project="InCome" Source="crCurrent.rpt" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\crCurrent.rpt">
+</Event><Event ErrorLevel="0" Project="InCome" Source="crDayReport.rpt" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\crDayReport.rpt">
+</Event><Event ErrorLevel="0" Project="InCome" Source="crTotalReport.resx" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\crTotalReport.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="crTotalReport.rpt" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\crTotalReport.rpt">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmAdminLog.resx" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\fmAdminLog.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmDepart.resx" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\fmDepart.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmEmpl.resx" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\fmEmpl.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmEmplSearch.resx" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\fmEmplSearch.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmGroup.resx" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\fmGroup.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmLogin.resx" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\fmLogin.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmMain.resx" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\fmMain.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmRep.resx" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\fmRep.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmStat.resx" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\fmStat.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmEmplEdit.resx" Description="File successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\fmEmplEdit.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="InCome.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="InCome" Source="InCome.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="1" Project="Setup" Source="..\Setup\Setup.vdproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="0" Project="Setup.vdproj" Source="..\Setup\Setup.vdproj" Description="Project file successfully backed up as C:\ProjectsOLD\InCome_prog\InCome\Backup1\Setup\Setup.vdproj">
+</Event><Event ErrorLevel="0" Project="" Source="InCome.sln" Description="The solution file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="" Source="InCome.sln" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="Setup.vdproj" Source="..\Setup\Setup.vdproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Setup.vdproj" Source="..\Setup\Setup.vdproj" Description="Converted">
+</Event></UpgradeLog>

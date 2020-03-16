@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="InCome">
+</Property><Property Name="Solution File" Value="C:\plumply\work\Прочие программы\Проходная система InCome\InCome\InCome.sln">
+</Property><Property Name="User Options File" Value="C:\plumply\work\Прочие программы\Проходная система InCome\InCome\InCome.suo">
+</Property><Property Name="Date" Value="14 листопада 2007 р.">
+</Property><Property Name="Time" Value="15:29">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="InCome.sln" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\InCome.sln">
+</Event><Event ErrorLevel="0" Project="" Source="InCome.suo" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\InCome.suo">
+</Event><Event ErrorLevel="0" Project="InCome" Source="InCome.csproj" Description="Project file successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\InCome.csproj">
+</Event><Event ErrorLevel="0" Project="InCome" Source="InCome.csproj.user" Description="Project user file successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\InCome.csproj.user">
+</Event><Event ErrorLevel="0" Project="InCome" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="CDbCreator.cs" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\CDbCreator.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="CEncode128.cs" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\CEncode128.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="crCards.cs" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\crCards.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="crCurrent.cs" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\crCurrent.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="crDayReport.cs" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\crDayReport.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="crTotalReport.cs" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\crTotalReport.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="dsCurrent.cs" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\dsCurrent.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="dsReportSource.cs" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\dsReportSource.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmAdminLog.cs" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\fmAdminLog.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmDepart.cs" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\fmDepart.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmEmpl.cs" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\fmEmpl.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmEmplSearch.cs" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\fmEmplSearch.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmGroup.cs" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\fmGroup.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmLogin.cs" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\fmLogin.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmMain.cs" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\fmMain.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmRep.cs" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\fmRep.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmStat.cs" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\fmStat.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="Form1.cs" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="InCome" Source="dsCurrent.xsx" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\dsCurrent.xsx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="dsReportSource.xsx" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\dsReportSource.xsx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="App.ico" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="InCome" Source="dsCurrent.xsd" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\dsCurrent.xsd">
+</Event><Event ErrorLevel="0" Project="InCome" Source="dsReportSource.xsd" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\dsReportSource.xsd">
+</Event><Event ErrorLevel="0" Project="InCome" Source="crCards.resx" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\crCards.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="crCards.rpt" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\crCards.rpt">
+</Event><Event ErrorLevel="0" Project="InCome" Source="crCurrent.rpt" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\crCurrent.rpt">
+</Event><Event ErrorLevel="0" Project="InCome" Source="crDayReport.rpt" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\crDayReport.rpt">
+</Event><Event ErrorLevel="0" Project="InCome" Source="crTotalReport.resx" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\crTotalReport.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="crTotalReport.rpt" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\crTotalReport.rpt">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmAdminLog.resx" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\fmAdminLog.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmDepart.resx" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\fmDepart.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmEmpl.resx" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\fmEmpl.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmEmplSearch.resx" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\fmEmplSearch.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmGroup.resx" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\fmGroup.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmLogin.resx" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\fmLogin.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmMain.resx" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\fmMain.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmRep.resx" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\fmRep.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="fmStat.resx" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\fmStat.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="Form1.resx" Description="File successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="InCome" Source="InCome.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="InCome" Source="InCome.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="Setup" Source="..\Setup\Setup.vdproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="0" Project="Setup.vdproj" Source="..\Setup\Setup.vdproj" Description="Project file successfully backed up as C:\plumply\work\Прочие программы\Проходная система InCome\InCome\Backup\Setup\Setup.vdproj">
+</Event><Event ErrorLevel="0" Project="" Source="InCome.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="InCome.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="InCome" Source="InCome.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Setup.vdproj" Source="..\Setup\Setup.vdproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Setup.vdproj" Source="..\Setup\Setup.vdproj" Description="Converted">
+</Event></UpgradeLog>

@@ -1,0 +1,115 @@
+<html dir="LTR">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+    <meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
+    <title>fmStat Members</title>
+    <xml>
+    </xml>
+    <link rel="stylesheet" type="text/css" href="MSDN.css" />
+  </head>
+  <body id="bodyID" class="dtBODY">
+    <div id="nsbanner">
+      <div id="bannerrow1">
+        <table class="bannerparthead" cellspacing="0">
+          <tr id="hdr">
+            <td class="runninghead">InCome. Source</td>
+            <td class="product">
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="TitleRow">
+        <h1 class="dtH1">fmStat Members
+					</h1>
+      </div>
+    </div>
+    <div id="nstext">
+      <p>
+        <a href="InCome.fmStat.html">fmStat overview</a>
+      </p>
+      <h4 class="dtH4">Public Instance Constructors</h4>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+          <tr VALIGN="top">
+            <td width="50%">
+              <img src="pubmethod.gif" />
+              <a href="InCome.fmStatConstructor.html">fmStat Constructor</a>
+            </td>
+            <td width="50%"> Конструктор формы </td>
+          </tr>
+        </table>
+      </div>
+      <h4 class="dtH4">Protected Instance Methods</h4>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+<tr VALIGN="top"><td width="50%"><img src="protmethod.gif"></img><a href="InCome.fmStat.Dispose_overload_2.html">Dispose</a></td><td width="50%">Overloaded.  </td></tr></table>
+      </div>
+      <h4 class="dtH4">Private Instance Fields</h4>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+<tr VALIGN="top"><td width="50%"><img src="privfield.gif"></img><a href="InCome.fmStat.bntRefresh.html">bntRefresh</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privfield.gif"></img><a href="InCome.fmStat.btnCorrect.html">btnCorrect</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privfield.gif"></img><a href="InCome.fmStat.btnGo.html">btnGo</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privfield.gif"></img><a href="InCome.fmStat.btnPrint.html">btnPrint</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privfield.gif"></img><a href="InCome.fmStat.button2.html">button2</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privfield.gif"></img><a href="InCome.fmStat.cbAll.html">cbAll</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privfield.gif"></img><a href="InCome.fmStat.cbSusp.html">cbSusp</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privfield.gif"></img><a href="InCome.fmStat.clbEmpl.html">clbEmpl</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privfield.gif"></img><a href="InCome.fmStat.components.html">components</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privfield.gif"></img><a href="InCome.fmStat.conStr.html">conStr</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privfield.gif"></img><a href="InCome.fmStat.dgCurrent.html">dgCurrent</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privfield.gif"></img><a href="InCome.fmStat.dsCurrent.html">dsCurrent</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privfield.gif"></img><a href="InCome.fmStat.dtpDate1.html">dtpDate1</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privfield.gif"></img><a href="InCome.fmStat.dtpDate2.html">dtpDate2</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privfield.gif"></img><a href="InCome.fmStat.dtpTime1.html">dtpTime1</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privfield.gif"></img><a href="InCome.fmStat.dtpTime2.html">dtpTime2</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privfield.gif"></img><a href="InCome.fmStat.groupBox1.html">groupBox1</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privfield.gif"></img><a href="InCome.fmStat.label1.html">label1</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privfield.gif"></img><a href="InCome.fmStat.label2.html">label2</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privfield.gif"></img><a href="InCome.fmStat.label3.html">label3</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privfield.gif"></img><a href="InCome.fmStat.lbWait.html">lbWait</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privfield.gif"></img><a href="InCome.fmStat.rbDayly.html">rbDayly</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privfield.gif"></img><a href="InCome.fmStat.rbTotal.html">rbTotal</a></td><td width="50%"> </td></tr></table>
+      </div>
+      <h4 class="dtH4">Private Instance Methods</h4>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+<tr VALIGN="top"><td width="50%"><img src="privmethod.gif"></img><a href="InCome.fmStat.bntRefresh_Click.html">bntRefresh_Click</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privmethod.gif"></img><a href="InCome.fmStat.btnCorrect_Click.html">btnCorrect_Click</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privmethod.gif"></img><a href="InCome.fmStat.btnGo_Click.html">btnGo_Click</a></td><td width="50%"> Иницирует к открытию "ежедневный" либо "итоговый" отчёты </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privmethod.gif"></img><a href="InCome.fmStat.btnPrint_Click.html">btnPrint_Click</a></td><td width="50%"> Иницирует к открытию отчёт о текуще зарегистрированных сотрудниках </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privmethod.gif"></img><a href="InCome.fmStat.button2_Click.html">button2_Click</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privmethod.gif"></img><a href="InCome.fmStat.cbAll_Click.html">cbAll_Click</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privmethod.gif"></img><a href="InCome.fmStat.cbSusp_CheckedChanged.html">cbSusp_CheckedChanged</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privmethod.gif"></img><a href="InCome.fmStat.clbEmpl_ItemCheck.html">clbEmpl_ItemCheck</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privmethod.gif"></img><a href="InCome.fmStat.correctTime.html">correctTime</a></td><td width="50%"> Корректирует некорректные записи о регистрации сотрудников в базе </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privmethod.gif"></img><a href="InCome.fmStat.dgCurrent_DoubleClick.html">dgCurrent_DoubleClick</a></td><td width="50%"> </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privmethod.gif"></img><a href="InCome.fmStat.fillCurrent.html">fillCurrent</a></td><td width="50%"> Заполняет набор данных информацией о текущих зарегистрированных сотрудниках </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privmethod.gif"></img><a href="InCome.fmStat.fillReportSource.html">fillReportSource</a></td><td width="50%"> Заполняет набор данных для формирования "ежедневного" и "итогового" отчётов </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privmethod.gif"></img><a href="InCome.fmStat.fmStat_Load.html">fmStat_Load</a></td><td width="50%"> Обработчик события загрузки формы </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privmethod.gif"></img><a href="InCome.fmStat.formReportTable.html">formReportTable</a></td><td width="50%"> В базе создаёт и заполняет таблицу с информацией, необходимой для формирования "ежедневного" и "итогового" отчётов по сотрудникам </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privmethod.gif"></img><a href="InCome.fmStat.InitializeComponent.html">InitializeComponent</a></td><td width="50%"> Required method for Designer support - do not modify the contents of this method with the code editor. </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="privmethod.gif"></img><a href="InCome.fmStat.setGridCurrent.html">setGridCurrent</a></td><td width="50%"> Связывает элемент управления "таблица" на форме с набором данных о текуще зарегистрированных сотрудниках </td></tr></table>
+      </div>
+      <h4 class="dtH4">See Also</h4>
+      <p>
+        <a href="InCome.fmStat.html">fmStat Class</a> | <a href="InCome.html">InCome Namespace</a></p>
+      <object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e" viewastext="true" style="display: none;">
+        <param name="Keyword" value="fmStat class">
+        </param>
+        <param name="Keyword" value="InCome.fmStat class">
+        </param>
+        <param name="Keyword" value="fmStat class, all members">
+        </param>
+      </object>
+      <hr />
+      <div id="footer">
+        <p>
+          <a>OMNI-UA</a>
+        </p>
+        <p>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

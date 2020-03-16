@@ -1,0 +1,726 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>InCome</name>
+    </assembly>
+    <members>
+        <member name="T:InCome.SqlVer">
+            <summary>
+            Версия SQL-сервера
+            </summary>
+        </member>
+        <member name="T:InCome.CDbCreator">
+            <summary>
+            Класс предназначен для работы с базой данных
+            </summary>
+        </member>
+        <member name="F:InCome.CDbCreator.conStr">
+            <summary>
+            Строка соединения с базой
+            </summary>
+        </member>
+        <member name="F:InCome.CDbCreator.sqlVer">
+            <summary>
+            Версия SQL-сервера
+            </summary>
+        </member>
+        <member name="M:InCome.CDbCreator.getDBCon(System.String)">
+            <summary>
+            Возвращает название базы данных из строки соединенения
+            </summary>
+            <param name="conStr">Строка соединения с базой</param>
+            <returns>Название</returns>
+        </member>
+        <member name="M:InCome.CDbCreator.getServerCon(System.String)">
+            <summary>
+            Возвращает название SQL-сервера из строки соединенения
+            </summary>
+            <param name="conStr">Строка соединения с базой</param>
+            <returns>Название</returns>		
+        </member>
+        <member name="M:InCome.CDbCreator.getUserCon(System.String)">
+            <summary>
+            Возвращает имя пользователя из строки соединенения
+            </summary>
+            <param name="conStr">Строка соединения с базой</param>
+            <returns>Имя</returns>
+        </member>
+        <member name="M:InCome.CDbCreator.getPasswCon(System.String)">
+            <summary>
+            Возвращает пароль из строки соединенения
+            </summary>
+            <param name="conStr">Строка соединения с базой</param>
+            <returns>Пароль</returns>		
+        </member>
+        <member name="M:InCome.CDbCreator.#ctor(System.String)">
+            <summary>
+            Конструктор класса
+            </summary>
+            <param name="key">Путь к ключу в реестре</param>
+            <remarks>Считывает из реестра строку соединения с базой и версию SQL-сервера</remarks>
+        </member>
+        <member name="M:InCome.CDbCreator.setConStr">
+            <summary>
+            Задаёт строку соединения с базой и определяет версию SQL-сервера
+            </summary>
+            <returns>true - выполнена успешно; false - произошла ошибка</returns>
+            <remarks>На машине пользователя должны быть установлены "Microsoft ActiveX Data... 2.7" и "Microsoft OLEDB 1.0 Service..." </remarks>
+        </member>
+        <member name="M:InCome.CDbCreator.setRegValue(System.String,System.String,System.String)">
+            <summary>
+            Устанавливает значение ключа в реестре
+            </summary>
+            <param name="key">Путь к ключу</param>
+            <param name="name">Имя параметра</param>
+            <param name="val">Значение параметра</param>
+            <returns>true - выполнена успешно; false - возникла ошибка</returns>
+        </member>
+        <member name="M:InCome.CDbCreator.getRegValue(System.String,System.String,System.String@)">
+            <summary>
+            Считывает из реестра значения
+            </summary>
+            <param name="key">Путь к ключу</param>
+            <param name="name">Имя параметра</param>
+            <param name="val">Значение параметра</param>
+            <returns>true - выполнена успешно; false - возникла ошибка</returns>
+        </member>
+        <member name="M:InCome.CDbCreator.isDBase(System.String,InCome.SqlVer,System.String)">
+            <summary>
+            Проверяет, есть ли указанная база данных
+            </summary>
+            <param name="conStr">Строка соединения с базой master (либо какой-либо другой базой) соответствующего SQL-сервера</param>
+            <param name="sqlVer">Версия SQL-сервера</param>
+            <param name="dbname">Имя базы данных</param>
+            <returns>0 - базы нет; 1 - база есть; -1 - произошла ошибка при проверке </returns>
+        </member>
+        <member name="M:InCome.CDbCreator.dropDB">
+            <summary>
+            Удаляет базу данных
+            </summary>
+            <returns>true - выполнена успешно; false - возникла ошибка</returns>
+        </member>
+        <member name="M:InCome.CDbCreator.createDB">
+            <summary>
+            Созадёт базу данных
+            </summary>
+            <returns>true - выполнена успешно; false - возникла ошибка</returns>
+        </member>
+        <member name="M:InCome.CDbCreator.SetPassword(System.String,System.String,System.String)">
+            <summary>
+            Изменяет пароль администратора
+            </summary>
+            <param name="oldpassword">Старый пароль</param>
+            <param name="newpassword">Новый пароль</param>
+            <param name="login">Логин администратора ("InComeUser")</param>
+            <returns>true - выполнена успешно; false - возникла ошибка</returns>
+        </member>
+        <member name="T:InCome.CEncode128">
+            <summary>
+            Класс для перекодирования строки с цифровой последовательностью в строку символов, необходимую для отображения штрих-кода (Code 128) шрифтом barcode.ttf  
+            </summary>
+        </member>
+        <member name="M:InCome.CEncode128.Encode128(System.String)">
+            <summary>
+            Перекодирует строку
+            </summary>
+            <param name="A">Строка из последовательности цифр</param>
+            <returns>Закодированная строка</returns>
+        </member>
+        <member name="T:InCome.fmAdminLog">
+            <summary>
+            Форма для подтверждения прав администратора
+            </summary>
+            <remarks>Также позволяет сменить пароль администратора</remarks>
+        </member>
+        <member name="F:InCome.fmAdminLog.fdcr">
+            <summary>
+            Содержит информацию о строке соединения с базой и версии SQL-сервера 
+            </summary>
+        </member>
+        <member name="F:InCome.fmAdminLog.isLog">
+            <summary>
+            Результат проверки прав, имеет значение true, если подтвержданы права администратора
+            </summary>
+        </member>
+        <member name="M:InCome.fmAdminLog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:InCome.fmAdminLog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:InCome.fmAdminLog.logAdmin(InCome.CDbCreator@)">
+            <summary>
+            Иницирует процесс проверки административных прав
+            </summary>
+            <param name="dcr">Описывает строку соединения и тип версию SQL-сервера</param>
+            <returns></returns>
+        </member>
+        <member name="M:InCome.fmAdminLog.bntSetPassword_Click(System.Object,System.EventArgs)">
+             <summary>
+             Устанавливает новый пароль администратора
+             </summary>
+            <remarks>Изменённая строка соединения с базой записывается в реестр</remarks>
+        </member>
+        <member name="T:InCome.fmDepart">
+            <summary>
+            Форма для редактирования отделов
+            </summary>
+        </member>
+        <member name="F:InCome.fmDepart.dsDepart">
+            <summary>
+            Набор данных, содержащий информацию об отделах
+            </summary>	    
+        </member>
+        <member name="F:InCome.fmDepart.conStr">
+            <summary>
+            Строка соединения с базой
+            </summary>
+        </member>
+        <member name="M:InCome.fmDepart.#ctor(System.String)">
+            <summary>
+            Конструктор формы
+            </summary>
+            <remarks>Задаёт строку соединения с базой</remarks>
+            <param name="fconStr">Строка соединения с базой</param>
+        </member>
+        <member name="M:InCome.fmDepart.getDeparts(System.String)">
+            <summary>
+            Возвращает названия и идентификаторы всех отделов
+            </summary>
+            <param name="conStr">Строка соединения с базой</param>
+            <returns>Массив с данными</returns>
+        </member>
+        <member name="M:InCome.fmDepart.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:InCome.fmDepart.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:InCome.fmDepart.fillDeparts">
+            <summary>
+            Заполняет набор данных информацией об отделах
+            </summary>
+            <returns>Набор данных</returns>		
+        </member>
+        <member name="M:InCome.fmDepart.setGrid">
+            <summary>
+            Связывает элемент управления "таблица" на форме с набором данными об отделах
+            </summary>
+        </member>
+        <member name="M:InCome.fmDepart.addDepart(System.String,System.String,System.String,System.String)">
+            <summary>
+            Добавляет новый отдел
+            </summary>
+            <param name="name">Название отдела</param>
+            <param name="topdepart">Название вышестоящего отдела</param>
+            <param name="manager">Начальник отдела</param>
+            <param name="phone">Телефон отдела</param>
+            <returns>true - выполнена успешно; false - возникла ошибка</returns>
+        </member>
+        <member name="M:InCome.fmDepart.changeDepart(System.Int32,System.String,System.String,System.String,System.String)">
+            <summary>
+            Изменяет данные об отделе
+            </summary>
+            <param name="dpid">Идентификатор отдела</param>
+            <param name="name">Название отдела</param>
+            <param name="topdepart">Название вышестоящего отдела</param>
+            <param name="manager">Начальник отдела</param>
+            <param name="phone">Телефон отдела</param>
+            <returns>true - выполнена успешно; false - возникла ошибка</returns>
+        </member>
+        <member name="M:InCome.fmDepart.delDepart(System.Int32)">
+            <summary>
+            Удаляет отдел
+            </summary>
+            <param name="dpid">Идентификатор отдела</param>
+            <returns>true - выполнена успешно; false - возникла ошибка</returns>
+        </member>
+        <member name="M:InCome.fmDepart.dgDepart_CurrentCellChanged(System.Object,System.EventArgs)">
+            <summary>
+            Заполняет элементы управления на форме данными о сотруднике, выбранном в таблице
+            </summary>		
+        </member>
+        <member name="T:InCome.fmEmpl">
+            <summary>
+            Форма для редактирования данных о сотрудниках
+            </summary>
+            <remarks>Позволяет добавлять, изменять и удалять сотрудников.</remarks>
+        </member>
+        <member name="F:InCome.fmEmpl.conStr">
+            <summary>
+            Строка соединения с базой
+            </summary>
+        </member>
+        <member name="M:InCome.fmEmpl.#ctor(System.String)">
+            <summary>
+            Конструктор формы
+            </summary>
+            <remarks>Задаёт строку соединения с базой</remarks>
+            <param name="fconStr">Строка соединения с базой</param>
+        </member>
+        <member name="M:InCome.fmEmpl.addToQueue(System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Добавляет информацию о сотруднике в "очередь печати" карточек со штрих-кодом либо только определяет количество записей в очереди
+            </summary>
+            <param name="surname">Фамилия</param>
+            <param name="name">Имя</param>
+            <param name="secname">Отчество</param>
+            <param name="code">Штрих-код</param>
+            <param name="department">Отдел</param>
+            <param name="group">Группа</param>
+            <param name="add">Флаг (true - добавить в очередь и вернуть количество в "очереди";false - только вернуть количество в "очереди")</param>
+            <returns>Количество записей в "очереди"</returns>
+        </member>
+        <member name="M:InCome.fmEmpl.delQueue">
+            <summary>
+            Очищает "очередь печати" карточек со штрих-кодом
+            </summary>
+            <returns>true - выполнена успешно; false - возникла ошибка</returns>
+        </member>
+        <member name="M:InCome.fmEmpl.getKontrSum(System.String)">
+            <summary>
+            Возвращает контрольное число
+            </summary>
+            <param name="s">Строка с цифровой последовательностью</param>
+            <returns>Двухсимвольное контрольное число</returns>
+        </member>
+        <member name="M:InCome.fmEmpl.isKontrSumRight(System.String)">
+            <summary>
+            Проверяет, имеет ли штрих-код сотрудника правльное контрольное число
+            </summary>
+            <param name="s">Штрих-код сотрудника</param>
+            <returns>true - контрольное число правильное; false - контрольное число неправильное</returns>
+        </member>
+        <member name="M:InCome.fmEmpl.getNewCode(System.String)">
+            <summary>
+            Формирует новый штрих-код для сотрудника
+            </summary>
+            <param name="fio">Фамилия Имя Отчество сотрудника</param>
+            <returns>Новый штрих-код</returns>
+            <remarks>Штрих-код формируется из следующих частей: "1"[1 символ]+хэш ФИО[2 символа]+год[4 символа]+день в году[3 символа]+секунда в дне[5 символов]+контрольное число[2 символа]</remarks>
+        </member>
+        <member name="M:InCome.fmEmpl.getEmpls(System.String,System.String)">
+            <summary>
+            Возвращает ФИО и идентификатор сотрудников, удовлетворяющих некоторому критерию
+            </summary>
+            <param name="conStr">Строка соединения с базой</param>
+            <param name="filter">Критерий фильтрации</param>
+            <returns>Массив с данными о сотрудниках</returns>
+        </member>
+        <member name="M:InCome.fmEmpl.refreshDepart">
+            <summary>
+            Обновляет список отделов на форме
+            </summary>
+        </member>
+        <member name="M:InCome.fmEmpl.refreshGroup">
+            <summary>
+            Обновляет список групп на форме
+            </summary>
+        </member>
+        <member name="M:InCome.fmEmpl.getUserByID(System.Int32)">
+            <summary>
+            Загружает информацию о сотруднике из базы в элементы управления
+            </summary>
+            <param name="id">Идентификатор сотрудника</param>
+            <returns>true - выполнена успешно; false - возникла ошибка</returns>
+        </member>
+        <member name="M:InCome.fmEmpl.delUserByID(System.Int32)">
+            <summary>
+            Удаляет сотрудника из базы
+            </summary>
+            <param name="id">Идентификатор сотрудника</param>
+            <returns>true - выполнена успешно; false - возникла ошибка</returns>
+        </member>
+        <member name="M:InCome.fmEmpl.AddUser(System.String,System.Int32)">
+            <summary>
+            Добавляет нового сотрудника в отдел либо группу
+            </summary>
+            <param name="name">Имя отдела (группы)</param>
+            <param name="mode">0 - добавляет в отдел; 1 - добавляет в группу</param>
+            <returns>true - выполнена успешно; false - возникла ошибка</returns>		
+        </member>
+        <member name="M:InCome.fmEmpl.changeUserByID(System.Int32)">
+            <summary>
+            Изменяет информацию о сотруднике
+            </summary>
+            <param name="id">Идентификатор сотрудника</param>
+            <returns>true - выполнена успешно; false - возникла ошибка</returns>
+        </member>
+        <member name="M:InCome.fmEmpl.fillTree(System.Int32,System.Windows.Forms.TreeView,System.String,System.String)">
+            <summary>
+            Заполняет "дерево сотрудников"
+            </summary>
+            <param name="mode">0 - "дерево" заполняется по отделам; 1- "дерево" заполняется по группам</param>
+            <param name="tv">Элемент управления TreeView для заполнения</param>
+            <param name="openname">Имя отдела (группы), узел которого нужно открыть (опция) </param>
+            <param name="ndname">Имя сотрудника (узла), который необходимо выбрать (опция)</param>
+        </member>
+        <member name="M:InCome.fmEmpl.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:InCome.fmEmpl.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:InCome.fmEmpl.btnNewDepart_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывает форму для редактирования отделов
+            </summary>		
+        </member>
+        <member name="M:InCome.fmEmpl.btnNewGroup_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывает форму для редактирования групп
+            </summary>
+        </member>
+        <member name="M:InCome.fmEmpl.miDepart_Click(System.Object,System.EventArgs)">
+            <summary>
+            Запускает процесс заполнения "дерева сотрудников" 
+            </summary>
+            <remarks>В зависимости от выбора заполнение происходит по отделам либо по группам</remarks>
+        </member>
+        <member name="M:InCome.fmEmpl.fmEmpl_Load(System.Object,System.EventArgs)">
+             <summary>
+             Обработчик события загрузки формы
+             </summary>
+            <remarks>Иницирует заполнение "дерева" сотрудников, обновляет списки отделов и групп</remarks>
+        </member>
+        <member name="M:InCome.fmEmpl.tvEmpl_AfterSelect(System.Object,System.Windows.Forms.TreeViewEventArgs)">
+            <summary>
+            Запускается после выбора сотрудника в "дереве сотрудников" и иницирует заполнение элементов управления информацией о сотруднике
+            </summary>
+        </member>
+        <member name="M:InCome.fmEmpl.btnDelEmpl_Click(System.Object,System.EventArgs)">
+            <summary>
+            Иницирует удаление сотрудника из базы
+            </summary>		
+        </member>
+        <member name="M:InCome.fmEmpl.btnAdd_Click(System.Object,System.EventArgs)">
+            <summary>
+            Иницирует добавление нового сотрудника в отдел (группу)
+            </summary>		
+        </member>
+        <member name="M:InCome.fmEmpl.btnSave_Click(System.Object,System.EventArgs)">
+            <summary>
+            Иницирует сохранение изменённых данных о сотруднике
+            </summary>	
+        </member>
+        <member name="M:InCome.fmEmpl.btnPrintQueue_Click(System.Object,System.EventArgs)">
+            <summary>
+            Печатае карточки со штрих-кодом из "очереди печати" 
+            </summary>	
+        </member>
+        <member name="T:InCome.fmEmplSearch">
+            <summary>
+            Summary description for fmEmplSearch.
+            </summary>
+        </member>
+        <member name="F:InCome.fmEmplSearch.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:InCome.fmEmplSearch.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:InCome.fmEmplSearch.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:InCome.fmGroup">
+            <summary>
+            Форма редактирования групп
+            </summary>
+        </member>
+        <member name="F:InCome.fmGroup.dsGroup">
+            <summary>
+            Набор данных с информацией о группах
+            </summary>
+        </member>
+        <member name="F:InCome.fmGroup.conStr">
+            <summary>
+            Строка соединения с базой 
+            </summary>
+        </member>
+        <member name="M:InCome.fmGroup.setGrid">
+             <summary>
+            Связывает элемент управления "таблица" на форме с набором данными о группах
+             </summary>
+        </member>
+        <member name="M:InCome.fmGroup.fillGroups">
+            <summary>
+            Заполняет набор данных информацией о группах
+            </summary>
+            <returns>Набор данных</returns>
+        </member>
+        <member name="M:InCome.fmGroup.addGroup(System.String)">
+            <summary>
+            Добавляет новую группу
+            </summary>
+            <param name="name">Название группы</param>
+            <returns>true - выполнена успешно; false - возникла ошибка</returns>
+        </member>
+        <member name="M:InCome.fmGroup.changeGroup(System.Int32,System.String)">
+            <summary>
+            Изменяет данные о группе
+            </summary>
+            <param name="grid">Идентификатор группы</param>
+            <param name="name">Название группы</param>
+            <returns>true - выполнена успешно; false - возникла ошибка</returns>
+        </member>
+        <member name="M:InCome.fmGroup.delGroup(System.Int32)">
+            <summary>
+            Удаляет группу
+            </summary>
+            <param name="grid">Идентификатор группы</param>
+            <returns>true - выполнена успешно; false - возникла ошибка</returns>
+        </member>
+        <member name="M:InCome.fmGroup.getGroups(System.String)">
+            <summary>
+            Возвращает названия и идентификаторы всех групп
+            </summary>
+            <param name="conStr">Строка соединения с базой</param>
+            <returns>Массив с данными</returns>
+        </member>
+        <member name="M:InCome.fmGroup.#ctor(System.String)">
+            <summary>
+            Конструктор формы
+            </summary>
+            <remarks>Задаёт строку соединения с базой</remarks>
+            <param name="fconStr">Строка соединения с базой</param>
+        </member>
+        <member name="M:InCome.fmGroup.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:InCome.fmGroup.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:InCome.fmLogin">
+            <summary>
+            Форма для авторизации сотрудника при регистрации входа/выхода
+            </summary>
+            <remarks>Авторизация осуществляется путём сверки заданого сотрудником логина и пароля с теми, которые хранятся в базе</remarks>
+        </member>
+        <member name="F:InCome.fmLogin.result">
+            <summary>
+            Результат авторизации: true - успешно авторизирован; false - нет
+            </summary>
+        </member>
+        <member name="M:InCome.fmLogin.#ctor(System.String,System.String)">
+            <summary>
+            Конструктор формы
+            </summary>
+            <param name="flogin">Логин сотрудника</param>
+            <param name="fpassword">Пароль сотрудника</param>
+        </member>
+        <member name="M:InCome.fmLogin.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:InCome.fmLogin.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:InCome.fmMain">
+            <summary>
+            Главная форма приложения
+            </summary>
+            <remarks>Содержит элементы управления для регистрации сотрудников и открытия других форм приложения</remarks>
+        </member>
+        <member name="F:InCome.fmMain.dcr">
+            <summary>
+            Описывает строку соединения с базой данных и версию SQL-сервера
+            </summary>
+        </member>
+        <member name="M:InCome.fmMain.#ctor">
+            <summary>
+            Конструктор формы по-умолчанию
+            </summary>
+        </member>
+        <member name="M:InCome.fmMain.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:InCome.fmMain.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:InCome.fmMain.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="M:InCome.fmMain.LogInOut(System.String,System.String@,System.Drawing.Bitmap@)">
+            <summary>
+            Осуществляет регистрацию времени входа/выхода сотрудника 
+            </summary>
+            <param name="code">Штрих-код сотрудника</param>
+            <returns>0 - вошёл; 1 - вышел; 2 - ошибка регистрации </returns>		
+        </member>
+        <member name="M:InCome.fmMain.CheckCode(System.String,System.String@,System.String@)">
+            <summary>
+            Проверяет штрих-код сотрудника
+            </summary>
+            <param name="code">Штрих-код сотрудника</param>
+            <param name="login">Логин сотрудника (если задан)</param>
+            <param name="password">Пароль сотрудника (если задан)</param>
+            <returns>0 - штрих-код правильный; 1 - для регистрации дополнительно нужно задать логин и пароль сотрудника; 3 - неправильное КЧ в штрих-коде; 4 - штрих-код не найден в базе; 5 - ошибка при проверке</returns>		*/
+        </member>
+        <member name="M:InCome.fmMain.fmMain_Load(System.Object,System.EventArgs)">
+            <summary>
+            Обработчик события загрузки главной формы приложения
+            </summary>
+            <remarks>Проверяет реестр на наличие строки соединения с базой. В случае, когда строки соединения нет либо она задана неверно - предлагается проверить наличие базы InCome на сервере: </remarks>
+            <remarks> - если базы нет, то создаётся новая</remarks>
+            <remarks> - если база есть, то строка соединения записывается в реестр</remarks>
+        </member>
+        <member name="M:InCome.fmMain.pbSets_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывает форму для редактирования данных о сотрудниках
+            </summary>
+            <remarks>Предварительно запускает процедуру автризации пользователя</remarks>
+        </member>
+        <member name="M:InCome.fmMain.pbStat_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывает форму со статистикой
+            </summary>
+            <remarks>Предварительно запускает процедуру автризации пользователя</remarks>
+        </member>
+        <member name="M:InCome.fmMain.btnGo_Click(System.Object,System.EventArgs)">
+            <summary>
+            Запускает процесс регистрации сотрудника
+            </summary>
+            <remarks>Сперва проверяется штрих-код, потом происходит собственно регистрация</remarks>
+        </member>
+        <member name="M:InCome.fmMain.btnNewDB_Click(System.Object,System.EventArgs)">
+            <summary>
+            Создаёт новую базу InCome либо только прописывает в реестре строку соединения с базой
+            </summary>
+            <remarks>Предварительно запускает процедуру автризации пользователя</remarks>
+        </member>
+        <member name="T:InCome.fmRep">
+            <summary>
+            Форма для отображения отчётов
+            </summary>
+        </member>
+        <member name="F:InCome.fmRep.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:InCome.fmRep.#ctor(CrystalDecisions.CrystalReports.Engine.ReportClass)">
+            <summary>
+            Конструктор формы
+            </summary>
+            <param name="r">Объект отчёта, который отображается</param>
+        </member>
+        <member name="M:InCome.fmRep.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:InCome.fmRep.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:InCome.fmStat">
+            <summary>
+            Форма для отображения/подсчёта статистики по учёту рабочего времени сотрудников
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:InCome.fmStat.conStr" -->
+        <member name="M:InCome.fmStat.#ctor(System.String)">
+            <summary>
+            Конструктор формы
+            </summary>
+            <param name="fconStr">Строка соединения с базой</param>
+        </member>
+        <member name="M:InCome.fmStat.fillReportSource">
+            <summary>
+            Заполняет набор данных для формирования "ежедневного" и "итогового" отчётов 
+            </summary>
+            <returns>Набор данных</returns>
+        </member>
+        <member name="M:InCome.fmStat.correctTime(System.Int32,System.Int32@)">
+            <summary>
+            Корректирует некорректные записи о регистрации сотрудников в базе
+            </summary>
+            <param name="mode">0 - только определить количество некорректных записей; 1 - удалить некорректные записи </param>
+            <param name="cnt">Количество некорректных записей в базе</param>
+            <returns></returns>
+        </member>
+        <member name="M:InCome.fmStat.formReportTable(System.String,System.DateTime,System.DateTime)">
+            <summary>
+            В базе создаёт и заполняет таблицу с информацией, необходимой для формирования "ежедневного" и "итогового" отчётов по сотрудникам
+            </summary>
+            <param name="midlist">Список идентификаторов сотрудников</param>
+            <param name="d1">Начальный временной диапазон отчётности</param>
+            <param name="d2">Конечный временной диапазон отчётности</param>
+            <returns></returns>
+        </member>
+        <member name="M:InCome.fmStat.fillCurrent(System.Boolean)">
+            <summary>
+            Заполняет набор данных информацией о текущих зарегистрированных сотрудниках
+            </summary>
+            <param name="susp">true - выбираются только "подозрительные" сотрудники (у которых временной диапазон приход/уход слишком большой); false - выбираются все текуще зарегистированные сотрудники  </param>
+        </member>
+        <member name="M:InCome.fmStat.setGridCurrent(System.Boolean)">
+            <summary>
+            Связывает элемент управления "таблица" на форме с набором данных о текуще зарегистрированных сотрудниках
+            </summary>
+            <param name="susp"></param>
+        </member>
+        <member name="M:InCome.fmStat.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:InCome.fmStat.fmStat_Load(System.Object,System.EventArgs)">
+            <summary>
+            Обработчик события загрузки формы
+            </summary>
+            <remarks>Иницирует элементы управления на форме и заполняет их данными</remarks>	
+        </member>
+        <member name="M:InCome.fmStat.btnPrint_Click(System.Object,System.EventArgs)">
+            <summary>
+            Иницирует к открытию отчёт о текуще зарегистрированных сотрудниках
+            </summary>
+        </member>
+        <member name="M:InCome.fmStat.btnGo_Click(System.Object,System.EventArgs)">
+            <summary>
+            Иницирует к открытию "ежедневный" либо "итоговый" отчёты
+            </summary>		
+        </member>
+    </members>
+</doc>
